@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+main{
+    width:1200px;
+    margin:auto;
+    border: 1px solid rgb(255, 0, 179);
+    padding: 100px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    background-color: rgb(2, 4, 87);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px grey;
+}
+.images img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 10px;
+    
+}
+.images h1{
+    font-size: 18px;
+    color: #fff;
+}
+.allimages{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 30px;
+}
+.margincustom{
+    margin-top: 45px;
+}
+@media only screen and (max-width: 600px) {
+    main {
+    width: 400px;
+    margin: auto;
+    border: 1px solid rgb(255, 0, 179);
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+    .allimages{
+        display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    row-gap: 28px;
+    }
+
+
+
+
+
+    .images{
+        display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* justify-content: center; */
+    text-align: center;
+    margin: auto;
+}
+.images img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    
+}
+.images h1{
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.margincustom{
+    margin-top: 45px;
+}
+
+
+
+
+
+}
+
+
+
+
+    </style>
+</head>
+<body >
+    <main>
+ 
+       <div class="allimages">
+        <div class="images">
+           
+            <img src="Add a heading.jpg" alt="">
+              <h1>Lorem ipsum, dolor sit amet consectetur </h1>
+         </div>
+        <div class="images">
+           
+            <img src="Add a heading.jpg" alt="">
+              <h1>Lorem ipsum, dolor sit amet consectetur </h1>
+         </div>
+        <div class="images">
+           
+            <img src="Add a heading.jpg" alt="">
+              <h1>Lorem ipsum, dolor sit amet consectetur </h1>
+         </div>
+
+       </div>
+
+
+       <div class="allimages margincustom">
+        <div class="images">
+           
+            <img src="Add a heading.jpg" alt="">
+              <h1>Lorem ipsum, dolor sit amet consectetur </h1>
+         </div>
+        <div class="images">
+           
+            <img src="Add a heading.jpg" alt="">
+              <h1>Lorem ipsum, dolor sit amet consectetur </h1>
+         </div>
+        <div class="images">
+           
+            <img src="Add a heading.jpg" alt="">
+              <h1>Lorem ipsum, dolor sit amet consectetur </h1>
+         </div>
+
+       </div>
+
+    </main>
+   
+</body>
+</html>
